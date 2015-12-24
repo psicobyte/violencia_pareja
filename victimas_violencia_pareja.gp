@@ -31,5 +31,9 @@ set style fill transparent solid 0.25
 
 set grid y
 
+set label "© Allan Psicobyte. CC BY-SA 3.0" at 4,75
+
+set xlabel "Fuente: Informes sobre víctimas mortales de la Violencia de Género y de la Violencia Doméstica en el ámbito de la pareja o ex pareja \n http://www.poderjudicial.es/cgpj/es/Temas/Violencia-domestica-y-de-genero/Actividad-del-Observatorio/Informes-de-violencia-domestica"
+
 plot for [COL=2:3] 'victimas_violencia_pareja.csv' using COL:xticlabels(1) title columnheader
 
